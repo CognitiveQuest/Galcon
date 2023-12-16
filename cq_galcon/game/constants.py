@@ -1,0 +1,20 @@
+from enum import Enum
+
+
+class Team(Enum):
+    NEUTREAL = 0
+    TEAM_1 = 1
+    TEAM_2 = 2
+    TEAM_3 = 3
+    TEAM_4 = 4
+
+
+MAX_FLEET_SPEED = 4
+
+MAP_WIDTH = 256
+MAP_HEIGHT = 256
+
+MIN_PRODUCTION_SPEED = 10
+MAX_PRODUCTION_SPEED = 5
+
+MAX_ATTACK_SPEED = 10
